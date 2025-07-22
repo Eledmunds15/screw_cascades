@@ -1,4 +1,4 @@
 # Ignore output files
 output*/
 dump/
-log_lammps
+log.lammps
