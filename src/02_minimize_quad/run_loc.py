@@ -53,7 +53,7 @@ def main():
     L.minimize(ENERGY_TOL, FORCE_TOL, 1000, 10000) # Execute minimization
 
     L.write_dump('all', 'custom', os.path.join(DUMP_DIR, 'dump'), 'id', 'x', 'y', 'z', 'c_peratom') # Write a dumpfile containing atom positions and pot energies
-    L.write_data(os.path.join(OUTPUT_DIR, 'dislo.lmp'))
+    L.write_data(os.path.join(OUTPUT_DIR, 'quad.lmp'))
 
     L.close()
 
